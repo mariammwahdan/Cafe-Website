@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="icon" href="images\favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/script.js"></script>
+    <title>Coffee Addicts</title>
+</head>
+<body>
+    <!-- Header -->
+    <div class="main2">
+        <div class="overlay"></div>
+        <header>
+            <div class="logo">
+                <img src="images\logo_transparent.png">
+            </div>
+            <div class="menuToggle"></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="menu.html">Menu</a>
+                        <ul>
+                            <li><a href="bevereges.html">Beverages</a></li>
+                            <li><a href="">Food</a>
+                            <ul>
+                                <li><a href="sandwiches.html">Sandwiches</a></li>
+                                <li><a href="bakeries.html">Bakeries</a></li>
+                            </ul></li>  
+                        </ul>
+                    </li>
+                    <li><a href="Signup.html">Sign Up</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+           </header>
+        <section class="contact-section">
+            <div class="contact-info">
+                <div><i class="fa fa-map-marker" aria-hidden="true"></i> Cairo,Egypt</div>
+                <div><i class="fa fa-envelope" aria-hidden="true"></i> coffeeaddicts@gmail.com</div>
+                <div><i class="fa fa-phone" aria-hidden="true"></i> 0222445566</div>
+                <div><i class="fa fa-clock" aria-hidden="true"></i> Mon Fri 8:00 AM to 5:00 PM</div>
+            </div>
+            <div class="contact-form">
+                    <h2>Contact Us</h2><br>
+                    <form action="#" class="form" onsubmit="">
+                        <input class="text-box" id="fullname" name="fullname" type="text" placeholder="Full name" required >
+                        <input class="text-box" id="email" name="email" type="text" placeholder="Email" onblur="validateEmail(this.value)" required>
+                        <p id="validationMessage2" class="invalid"></p>
+                        <textarea id="messtext"  name="message" rows="5" placeholder="Your message"></textarea>
+                        <input type="submit" name="submit" class="send-btn" value="Send">
+                    </form>
+                
+
+            </div>
+        </section>
+       
+    </div>
+ 
+    <!-- Footer -->
+    <footer>
+         
+            <div class="socialIcons">
+               <a href="#"><i class="fa-brands fa-facebook"></i></a>
+               <a href="#"><i class="fa-brands fa-instagram"></i></a>
+               <a href="#"><i class="fa-brands fa-twitter"></i></a>
+               <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footernav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+      
+    </footer>
+    
+</body>
+</html>

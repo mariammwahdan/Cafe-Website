@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="icon" href="images\favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/script.js"></script>
+    <title>Coffee Addicts</title>
+</head>
+<body>
+    <div class="video-wrapper">
+        <video playsinline autoplay muted loop poster="images/Screenshot (221).png">
+          <source src="images/video (2160p).mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      
+    <!-- Header -->
+    <div class="main">
+        
+        <header>
+            <div class="logo">
+                <img src="images\logo_transparent.png">
+            </div>
+            <div class="menuToggle"></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="menu.html">Menu</a>
+                        <ul>
+                            <li><a href="bevereges.html">Beverages</a></li>
+                            <li><a href="">Food</a>
+                            <ul>
+                                <li><a href="sandwiches.html">Sandwiches</a></li>
+                                <li><a href="bakeries.html">Bakeries</a></li>
+                            </ul></li>  
+                        </ul>
+                    </li>
+                    <li><a href="Signup.html">Sign Up</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+           </header>
+        <section class="sect">
+            
+        <div class="info"> 
+            <span id="coffee">DISCOVER THE TASTE OF REAL COFFEE</span><br>
+        </div>
+        <span id="prompttext"></span>
+        <br>
+        <div class="homebtns">
+                <a href="Signup.html" >Sign Up</a> 
+                <a href="login.html" >Login</a> 
+                <a  onclick="promptfun()" href="#" >Continue as a guest</a> 
+        </div>
+        
+    </section>
+</div>
+</div>
+    <section class="partners">
+        <h1>Our Main Sponsers</h1>
+        <table>
+            <tr>
+              <td id="soc" class="soc" onmouseover="gotosocial()" onmouseleave="hide3()"><p id="clickme"></p><a href="https://www.instagram.com/socialspecialtycoffee/?hl=en"><img src="images/Socialcoffee_Logo.webp"></a></td>  
+              <td class="esp"><img src="images/espresso-lab (1).jpg"></td> 
+              <td class="sec"><img src="images/second-cup.jpg"></td>  
+              <td class="caf"><img src="images/-ZsHVdNU_400x400.jpg"></td>  
+            </tr>
+        </table>
+    
+    </section>
+    <!-- Footer -->
+    <footer>
+        
+            <div class="socialIcons">
+               <a href="#"><i class="fa-brands fa-facebook"></i></a>
+               <a href="#"><i class="fa-brands fa-instagram"></i></a>
+               <a href="#"><i class="fa-brands fa-twitter"></i></a>
+               <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footernav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+    
+    </footer>
+</body>
+</html>
